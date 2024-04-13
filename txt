@@ -1,0 +1,21 @@
+WHAT DISTINGUISHES NORMAL HTML ELEMENTS FROM SEMANTIC HTML ELEMENTS
+Normal HTML elements are generic tags like `<div>`, `<span>`, `<p>`, etc., which don't carry specific meaning about their content. Semantic HTML elements, on the other hand, convey meaning about the content they contain. For example, `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, `<aside>`, etc., provide context and structure to the content, making it more meaningful for both browsers and developers. They help improve accessibility, search engine optimization (SEO), and code readability.
+WHAT IS THE DISPARITIES BETWEEN CLOSING TAGS AND SELF CLOSING TAGS IN HTML
+Closing tags are used to mark the end of an HTML element, ensuring proper nesting and structure. For example:
+<p>This is a paragraph. </p>
+In contrast self-closing tags, also known as void or empty elements, are used to represent elements that don't have any content, such as line breaks, images, or inputs. They don't require a separate closing tag. For example:
+<br>
+<img src="image.jpg" alt="Description">
+<input type="text" name="name">
+Both types of tags are crucial for creating structured and well-formed HTML documents.
+WHAT DISTINGUISHES INLINE ELEMENTS FROM BLOCK ELEMENTS IN HTML
+Inline elements and block elements are two types of HTML elements with distinct behaviors and properties:
+Inline Elements:
+   - Inline elements do not start on a new line and only take up as much width as necessary.
+   - They allow other elements to sit beside them on the same line.
+   - Examples of inline elements include `<span>`, `<a>`, `<strong>`, `<em>`, `<img>`, `<input>`, and `<br>`.
+Block Elements:
+   - Block elements always start on a new line and take up the full width available.
+   - They create a visual block that forces subsequent elements to appear on new lines.
+   - Examples of block elements include `<div>`, `<p>`, `<h1>` to `<h6>`, `<ul>`, `<ol>`, `<li>`, `<header>`, `<footer>`, `<section>`, and `<article>`.
+Understanding the distinction between inline and block elements is crucial for proper layout and styling in HTML and CSS.
